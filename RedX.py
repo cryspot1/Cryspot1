@@ -4,7 +4,9 @@ import threading
 import os,sys
 
 os.system("clear")
-print("Custom sendiri")
+print("\033[93m")
+print('''\033[94m Tools By RedX
+
 ip = str(input("MASUKIN IPNYA | Target IP:"))
 port = int(input("MASUKIN PORTNYA | Target Port:"))
 choice = str(input("GAS GA NI? (y/n):"))
