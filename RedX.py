@@ -53,7 +53,7 @@ def run2():
 			print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
 
 def run3():
-	data = random._urandom(16)
+	data = random._urandom(1024)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
