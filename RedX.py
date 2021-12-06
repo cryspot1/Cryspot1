@@ -1,7 +1,17 @@
 import random
 import socket
 import threading
-import os,sys
+import socket
+import argparse
+import sys
+from time import time as tt
+import os
+import re
+import urllib.request
+import asyncio from colorama
+import init from colorama
+import Fore, Style
+import requests
 
 os.system("clear")
 print("\033[93m")
