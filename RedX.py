@@ -8,7 +8,6 @@ from time import time as tt
 import os
 import re
 import urllib.request
-import Fore, Style
 import requests
 
 os.system("clear")
