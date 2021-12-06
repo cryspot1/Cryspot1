@@ -8,8 +8,6 @@ from time import time as tt
 import os
 import re
 import urllib.request
-import asyncio from colorama
-import init from colorama
 import Fore, Style
 import requests
 
