@@ -45,7 +45,7 @@ def run():
 			print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
 
 def run2():
-	data = random._urandom(1490)
+	data = random._urandom(99999999)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
@@ -60,7 +60,7 @@ def run2():
 			print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
 
 def run3():
-	data = random._urandom(1490)
+	data = random._urandom(99999999)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
