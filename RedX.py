@@ -9,6 +9,7 @@ import os
 import re
 import urllib.request
 import requests
+import os,sys
 
 os.system("clear")
 print("\033[93m")
